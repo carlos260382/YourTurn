@@ -1,0 +1,329 @@
+.container{
+  background-color: #F5ECEB;
+  height: 1000px;
+  left: -528px;
+  top: -522px;
+  border-radius: 0px;
+  width: 100%; 
+}
+
+
+.logo {
+  height: 78px;
+  width: 300px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.title{
+  height: 152px;
+  width: 900px;
+  margin-left: 100px;
+  margin-bottom: 0px;
+  margin-top: 30px;
+  border-radius: nullpx;
+  font-size: xxx-large;
+  box-align : center
+}
+
+.item {
+margin-right: 15px;
+}
+
+.selecServicio{
+  height: 25px;
+  width: 150px;
+  font-size: 15px;
+  right: 20px;
+  margin-left: 20px;
+  margin-right:10px;
+  color: rgb(47, 5, 5);
+  background-color: rgb(255, 255, 255);
+  
+}
+
+.item2 {
+margin-right: 70px;
+}
+
+.selecHorario{
+height: 25px;
+width: 150px;
+font-size: 15px;
+right: 20px;
+margin-left: 130px;
+margin-right: -50px;
+color: rgb(47, 5, 5);
+background-color: rgb(255, 255, 255);
+
+}
+
+.item1{
+margin-right: 108px;
+}
+
+.selecHorario1{
+height: 25px;
+width: 150px;
+font-size: 15px;
+right: 20px;
+margin-left: 170px;
+margin-right: -86px;
+color: rgb(47, 5, 5);
+background-color: rgb(255, 255, 255);
+
+}
+
+.secSelect{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+}
+
+.sitioBtn{
+  padding-top: 80px;
+  padding-right: 600px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 20px;
+}
+
+.btn{
+  height: 35px;
+  width: 145px;
+  left: 800px;
+  top: 2340px;
+  border-radius: 15px;
+  border-color: #D74000;
+  color: #D74000;
+  font-size: x-large;
+}
+
+.btn1{
+height: 30px;
+width: 145px;
+margin-bottom: -30px;
+border-radius: 15px;
+border-color: #D74000;
+color: #D74000;
+font-size: 20px;
+}
+
+.btn:after {
+  background-clip: padding-box;
+  background-color: #cfaa9a;
+  color:#fff;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+ }
+ 
+ .btn:main, button:focus {
+  user-select:auto; 
+ }
+ 
+ .btn:hover:not(:disabled) {
+  filter: brightness(1.1);
+ }
+ 
+ .btn:disabled {
+  cursor: auto;
+ }
+ 
+ .btn:active:after {
+  border-width: 0 0 0px;
+ }
+ 
+ .btn:active {
+  padding-bottom: 10px;
+ }
+
+.nombres {
+ margin-right: 20px;
+}
+
+.cuadro {
+ margin-left: 34px;
+}
+
+.dni {
+  margin-right: 20px;
+}
+
+.cuadro1{
+margin-left: 160px;
+}
+
+.form {
+  height: min-content;
+  border-radius: 1em;
+  width: 500px;
+  color: navy; 
+  padding: 40px;
+  margin: 10px auto;
+  background-color: rgb(223, 220, 219);
+  border: 1px solid black;
+}
+.formGroup{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.form legend{
+  font-size: 1.8em;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.form label {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: left;
+  }
+  .form input {
+    
+    border: 1px solid rgb(185, 142, 22);
+    padding: 8px 0.5px;
+    font-size: 1.2em;
+    color: rgb(8, 2, 19);
+    width: 100%;
+  }
+  
+  .form select{
+    border: 1px solid rgb(185, 142, 22);
+    padding: 8px 10px;
+    font-size: 1.2em;
+    color: black;
+    outline: none;
+    width: 100%;
+    transition: all .15s ease;
+  }
+
+  .btnEnvio{
+  height: 55px;
+  width: 145px;
+  left: 479px;
+  top: 3640px;
+  border-radius: 15px;
+  border-color: #D74000;
+  color: #fff;
+  font-size: x-large;
+  background-color: #D74000;
+  margin-right: 30px;
+}
+
+
+.btnEnvio:after {
+  background-clip: padding-box;
+  background-color: #cfaa9a;
+  color:#fff;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+ }
+ .btnEnvio:main, button:focus {
+  user-select:auto; 
+ }
+ 
+ .btnEnvio:hover:not(:disabled) {
+  filter: brightness(1.1);
+ }
+ 
+ .btnEnvio:disabled {
+  cursor: auto;
+ }
+ 
+ .btnEnvio:active:after {
+  border-width: 0 0 0px;
+ }
+ 
+ .btnEnvio:active {
+  padding-bottom: 10px;
+ }
+  
+ .calendario{
+display: flex;     
+width: 400px;
+height: 400px;
+padding-left: 420px;
+padding-top: 100px;
+ }
+
+ .btnHome{
+  height: 55px;
+  width: 145px;
+  left: 479px;
+  top: 2340px;
+  border-radius: 15px;
+  border-color: #D74000;
+  color: #D74000;
+  font-size: x-large;
+  margin-right: 30px;
+}
+
+
+.btnHome:after {
+  background-clip: padding-box;
+  background-color: #cfaa9a;
+  color:#fff;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+ }
+ 
+ .btnHome:main, button:focus {
+  user-select:auto; 
+ }
+ 
+ .btnHome:hover:not(:disabled) {
+  filter: brightness(1.1);
+ }
+ 
+ .btnHome:disabled {
+  cursor: auto;
+ }
+ 
+ .btnHome:active:after {
+  border-width: 0 0 0px;
+ }
+ 
+ .btnHome:active {
+  padding-bottom: 10px;
+ }
+
+ .btnHome{
+
+
+ }
+
+ .formulario{
+   font-size: 20px;
+ }

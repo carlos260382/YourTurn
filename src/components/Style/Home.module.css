@@ -1,0 +1,152 @@
+.container{
+    background-color: #F5ECEB;
+    height: 1000px;
+    left: -728px;
+    top: -722px;
+    border-radius: 0px;
+    width: 100%;
+    
+}
+
+.conteSer {
+height: 350px;
+width: 1562px;
+left: -95px;
+top: 353px;
+border-radius: 0px;
+display: flex;
+flex-direction: row;
+align-content: center;
+}
+
+.logo {
+    height: 78px;
+    width: 300px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.title{
+height: 152px;
+width: 900px;
+margin-left: 100px;
+border-radius: nullpx;
+font-size: xxx-large;
+box-align : center
+}
+
+.cuidado {
+    height: 380px;
+    width: 350px;
+    left: 61px;
+    top: 359px;
+    border: solid #1C1B1B;
+    margin-left: 100px;
+    margin-right: 50px ;
+    border: solid #5a5555;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(214, 199, 193);
+}
+
+.imgCuidado{
+width: 200px;
+height: 250px;
+
+}
+
+.salud {
+    height: 380px;
+    width: 350px;
+    left: 542px;
+    top: 374px;
+    border: solid #1C1B1B;
+    margin-right: 50px;
+    border: solid #5a5555;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(214, 199, 193);
+}
+
+.imgSalud{
+    width: 200px;
+    height: 200px;
+    padding-top: 52px;
+}
+
+.veterinaria {
+    height: 380px;
+    width: 350px;
+    left: 979px;
+    top: 374px;
+    border: solid #5a5555;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(214, 199, 193);
+}
+
+.imgVeterinaria{
+    width: 200px;
+    height: 250px;
+}
+
+.textImg{
+color: #1C1B1B;
+}
+
+.btn {
+height: 55px;
+width: 145px;
+left: 479px;
+top: 3640px;
+border-radius: 15px;
+border-color: #D74000;
+color: #D74000;
+font-size: x-large;
+
+}
+
+.sitioBtn{
+    padding-top: 100px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.btn:after {
+    background-clip: padding-box;
+    background-color: #cfaa9a;
+    color:#fff;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+   }
+   
+   .btn:main, button:focus {
+    user-select:auto; 
+   }
+   
+   .btn:hover:not(:disabled) {
+    filter: brightness(1.1);
+   }
+   
+   .btn:disabled {
+    cursor: auto;
+   }
+   
+   .btn:active:after {
+    border-width: 0 0 0px;
+   }
+   
+   .btn:active {
+    padding-bottom: 10px;
+   }

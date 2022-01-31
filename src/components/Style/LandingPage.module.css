@@ -1,0 +1,119 @@
+.container {
+    background-color: #F5ECEB;
+    height: 900px;
+    left: -728px;
+    top: -722px;
+    border-radius: 0px;
+    width: 100%
+    
+}
+
+.containerLogo{
+   padding-top: 100px; 
+   padding-bottom: 160px;
+
+}
+
+.logo{
+    height: 297px;
+    width: 925px;
+    left: 232px;
+    top: 178px;
+    border-radius: 0px;
+
+}
+
+
+
+
+.btn{
+    margin-bottom: auto;
+    background-color: #D74000;
+    height: 76px;
+    width: 210px;
+    left: 337px;
+    top: 944px;
+    border-radius: 10px;
+    border: none;
+    font-size: 40px;
+    font-family: open Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 200;
+    box-sizing: border-box; 
+}
+
+.btn:after {
+    background-clip: padding-box;
+    background-color:#cf683c;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+   }
+   
+   .btn:main, button:focus {
+    user-select: auto;
+   }
+   
+   .btn:hover:not(:disabled) {
+    filter: brightness(1.1);
+   }
+   
+   .btn:disabled {
+    cursor: auto;
+   }
+   
+   .btn:active:after {
+    border-width: 0 0 0px;
+   }
+   
+   .btn:active {
+    padding-bottom: 10px;
+   }
+
+
+   @media (max-width: 768px) {
+    .container {
+        background-size: 100%;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .logo {
+        background-size: 100%;
+        width: 400px;
+        height: 110px;
+    }
+    .btn {
+        height: 45px;
+        width: 350px;
+        font-size: 35px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .container {
+        background-size: 100%;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .logo {
+        background-size: 100%;
+        width: 220px;
+        height: 70px;
+    }
+
+    .btn {
+        height: 25px;
+        width: 20px;
+        font-size: 15px;
+    }
+}

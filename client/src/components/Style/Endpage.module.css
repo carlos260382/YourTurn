@@ -1,0 +1,24 @@
+.container {
+    background-color: #F5ECEB;
+    height: 900px;
+    left: -728px;
+    border-radius: 0px;
+    width: 100%;
+    margin-top: -15px;
+    
+}
+
+.saludo {
+    font-size: 70px;
+}
+
+.logo {
+    height: 78px;
+    width: 300px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+}
